@@ -1,0 +1,7 @@
+sudo -s
+
+mkdir /opt/powershell && cd $_
+
+wget https://github.com/PowerShell/PowerShell/releases/download/v6.0.0-alpha.12/powershell_6.0.0-alpha.12-1ubuntu1.16.04.1_amd64.deb
+
+dpkg -i powershell*
